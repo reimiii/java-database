@@ -11,7 +11,7 @@ public class DriverTest {
     @Test
     void testRegister() {
         try {
-            Driver driver = new org.mariadb.jdbc.Driver();
+            Driver driver = new com.mysql.cj.jdbc.Driver();
             DriverManager.registerDriver(driver);
         } catch (SQLException exception) {
             Assertions.fail(exception);
