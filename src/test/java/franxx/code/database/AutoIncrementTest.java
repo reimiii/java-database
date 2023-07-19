@@ -29,6 +29,7 @@ public class AutoIncrementTest {
         }
 
 
+        keys.close();
         statement.close();
         connection.close();
     }
