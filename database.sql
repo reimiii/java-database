@@ -64,3 +64,10 @@ desc sample_time;
 select *
 from sample_time;
 
+delete
+from comments;
+
+select *
+from comments;
+
+select count(id) from comments;
